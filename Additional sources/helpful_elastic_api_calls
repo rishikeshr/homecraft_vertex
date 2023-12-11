@@ -60,11 +60,6 @@ GET home-depot-product-catalog-vector/_search
                         "boost": 1
                     }
                 }
-            }],
-            "filter": [{
-                "exists": {
-                    "field": "title-vector"
-                }
             }]
         }
     },
