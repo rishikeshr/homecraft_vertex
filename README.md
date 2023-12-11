@@ -12,7 +12,7 @@ This repo shows how to leverage Elastic search capabilities (both text and vecto
 
 ## Configuration steps
 
-!!! NEW !!! Now available a detailed step-by-step walkthrough to implement this repo [here](https://github.com/valerioarvizzigno/homecraft_vertex_lab) (also usable for external workshops)  
+!!! NEW !!! Now available a detailed step-by-step walkthrough to implement this repo [here](https://github.com/rishikeshr/homecraft_vertex_lab) (also usable for external workshops)  
 
 1. Setup your Elastic cluster with ML nodes
 
@@ -37,7 +37,7 @@ source homecraftenv/bin/activate
 5. Clone this repo in your project folder.
 
 ```bash
-git clone https://github.com/valerioarvizzigno/homecraft_vertex.git
+git clone https://github.com/rishikeshr/homecraft_vertex.git
 ```
 
 6. Install requirements needed to run the app from the requirements.txt file
