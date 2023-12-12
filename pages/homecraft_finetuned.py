@@ -55,11 +55,6 @@ def search_products(query_text):
                         "boost": 1
                     }
                 }
-            }],
-            "filter": [{
-                "exists": {
-                    "field": "title-vector"
-                }
             }]
         }
     }
@@ -108,11 +103,6 @@ def search_docs(query_text):
                         "query": query_text,
                         "boost": 1
                     }
-                }
-            }],
-            "filter": [{
-                "exists": {
-                    "field": "title-vector"
                 }
             }]
         }
